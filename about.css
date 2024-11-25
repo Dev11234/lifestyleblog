@@ -1,0 +1,143 @@
+.body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    .mainbox{
+        height: 70px;
+        width: 100%;
+        background-color: rgb(233, 179, 117);
+        position: sticky;
+        top: 0px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .list{
+       height: 60px;
+       width:60%;
+      
+       display: flex;
+       justify-content: space-around;
+    
+    
+    }
+    .list ul{
+    display: flex;
+    justify-content: left;
+    
+    
+    }
+    .list ul li{
+        list-style: none;
+        font-size: 20px;
+        margin: 5px 20px 5px 20px;
+        padding: 10px;
+    }
+    .icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 30px;
+    margin: 5px 10px 5px 10px;
+    padding: 5px;
+    }
+    .author{
+        height: 600px;
+        width: 100%;
+        position: absolute;
+        
+    }
+    .authorpic{
+        height: 600px;
+        width: 35%;
+        margin: auto;
+        position: relative;
+    }
+    .authorpic img{
+        height: 600px;
+        width: fit-content;
+        position: relative;
+    }
+    .aboutform{
+        display: flex;
+        justify-content: center;
+        
+       
+
+    }
+    .anf{
+        height: 600px;
+        width: 550px;
+        border-radius: 10px;
+        background-color: gainsboro;
+        position: absolute;
+        top: 500px;
+    }
+    .aboutt{
+        display: flex;
+        justify-content: center;
+    }
+    .form{
+        display: flex;
+        justify-content: center;
+    }
+    /* footer part */
+    .footer 
+{ 
+    background-color: #333; color: white; 
+    padding: 20px; 
+    text-align: center; 
+    position: relative;
+    top: 200px;
+} 
+.subscription-form 
+{ 
+    height: 400px;
+    width: 100%; 
+ 
+}
+
+.subscription-form form 
+{
+   display: flex; 
+   flex-direction: column; 
+   align-items: center; 
+} 
+
+.subscription-form label 
+{ 
+    margin-top: 10px; 
+} 
+.subscription-form input[type="email"] 
+{ 
+    width: 100%; 
+    padding: 10px; 
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+} 
+.checkbox-container 
+{ 
+    display: flex; 
+    align-items: center; 
+} 
+.checkbox-container input[type="checkbox"] 
+{ 
+    margin-right: 10px; 
+} 
+.subscription-form button 
+{ 
+    background-color: #4CAF50; 
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    margin-top: 10px; 
+    cursor: pointer; 
+} 
+.subscription-form button:hover 
+{ 
+    background-color: #45a049; 
+}
